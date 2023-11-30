@@ -1,0 +1,32 @@
+.homePage-Header{
+   
+    display: flex;
+    padding: 1rem;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(102, 99, 99);
+}
+
+.navtext{
+    position: sticky;
+padding-left: 38px;
+font: bold italic large serif;
+}
+
+
+.navBarHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4px;
+}
+
+@media screen and (min-width: 668px) {
+    
+    .product-Text{
+        display: block;
+       }
+
+}
