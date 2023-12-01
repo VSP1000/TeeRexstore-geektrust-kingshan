@@ -5,7 +5,7 @@ export const panelFunction = (valueType, clickFunction) => {
   return (
     <div className="category">
       <input
-        type="radio"
+        type="checkbox"
         label={valueType.label}
         key={valueType.value}
         value={valueType.value}

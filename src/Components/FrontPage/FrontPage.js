@@ -245,7 +245,7 @@ const HomePage = () => {
       <Grid className="mobile-search-Filter">
         <TextField
           placeholder="Search for products..."
-          className="search-mobile"
+          className="search-products"
           size="large"
           sx={{ m: 1, width: "100%" }}
           variant="outlined"

@@ -104,7 +104,7 @@ const Cart = () => {
             alignSelf="center"
             data-testid="cart-total"
           >
-            ₹{getTotalCartValue(items)}
+            Rs.{getTotalCartValue(items)}
           </Box>
         </Box>
       </Box>
